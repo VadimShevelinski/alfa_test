@@ -1,0 +1,6 @@
+bd: alfaTest
+user: alfa
+pass: 1234
+
+admin: admin
+pass: 12345678

@@ -1,0 +1,63 @@
+.title_with_border:before{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 50%;
+    border-top: 6px solid #3c00ff;
+    content: "";
+}
+
+.title_block{
+    color: #2a2a2a;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+.section7_wrapper ul {
+    list-style-image: url("../../img/point.png");
+}
+
+.section7_wrapper li {
+    color: #2a2a2a;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    padding-bottom: 35px;
+}
+
+.count_days{
+    color: #3c00ff;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.count_days:before{
+    content: attr(count);
+    color: #3c00ff;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    font-size: 36px;
+}
+
+.price_count{
+    color: #1a1e21;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}

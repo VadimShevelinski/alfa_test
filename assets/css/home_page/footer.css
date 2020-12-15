@@ -1,0 +1,71 @@
+.footer_wrapper{
+    background: #2a2a2a;
+    color: white!important;
+    padding: 25px 0;
+}
+
+.site_name{
+    color: #e8e8e8;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.comp_info{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.app_sent{
+    color: #e8e8e8;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.app_text{
+    color: #fffefe;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.icon_mess{
+    background: #e8e8e8;
+    width: 22px;
+    height: 22px;
+    padding: 3px;
+    border-radius: 0.3rem;
+}
+
+.comp_mail{
+    color: #e8e8e8;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.footer_container{
+    width: 100%;
+}
+
+.number_viber{
+}

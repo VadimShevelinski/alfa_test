@@ -1,0 +1,89 @@
+.section4_wrapper{
+    background: #e8e8e8;
+}
+
+.sections4_buttons button{
+    border: none;
+    background: transparent;
+    width: 100%;
+    text-align: left;
+    padding-left: calc(0px + 130 * ((100vw - 320px) / (1960 - 320)));
+    padding-right: calc(0px + 70 * ((100vw - 320px) / (1960 - 320)));
+    height: calc(100px + (132 - 100) * ((100vw - 320px) / (1960 - 320)));
+    display: flex;
+    align-items: center;
+    color: #2a2a2a;
+    font-size: calc(22px + (32 - 22) * ((100vw - 320px) / (1960 - 320)));
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.sections4_buttons button:before{
+    content: '0'attr(number);
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: relative;
+    top: -40px;
+}
+
+.sections4_buttons button:hover{
+    background: linear-gradient(135deg, transparent 0, #ffffff 0) top left, linear-gradient(-110deg, transparent 23px, #ffffff 0) top right, linear-gradient(-69deg, transparent 23px, #ffffff 0) bottom right, linear-gradient(80deg, transparent 0, #ffffff 0) bottom left;
+    background-size: 51% 51%;
+    background-repeat: no-repeat;
+
+}
+
+.active_button {
+    background: linear-gradient(135deg, transparent 0, #ffffff 0) top left, linear-gradient(-110deg, transparent 23px, #ffffff 0) top right, linear-gradient(-69deg, transparent 23px, #ffffff 0) bottom right, linear-gradient(80deg, transparent 0, #ffffff 0) bottom left !important;
+    background-size: 51% 51% !important;
+    background-repeat: no-repeat !important;
+
+}
+
+.section4_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0 0 calc(0px + 32 * ((100vw - 320px) / (1960 - 320)));
+!important;
+}
+
+.section4_content h1{
+    width: 100%;
+    color: #3c00ff;
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.section4_content h3{
+    width: 100%;
+    color: #2a2a2a;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.section4_content p{
+    color: #2a2a2a;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 26px;
+    text-align: left;
+}

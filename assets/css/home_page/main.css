@@ -1,0 +1,74 @@
+@import "../fonts.css";
+@import "header.css";
+@import "section1.css";
+@import "section2.css";
+@import "section3.css";
+@import "section4.css";
+@import "section5.css";
+@import "section6.css";
+@import "section7.css";
+@import "section8.css";
+@import "section9.css";
+@import "footer.css";
+
+*{
+    font-family: BebasNeue-Regular sans-serif;
+}
+
+button:active, button:focus {
+    outline: none;
+}
+button::-moz-focus-inner {
+    border: 0;
+}
+
+img { pointer-events: none; }
+
+
+.block_container{
+    width: 100%;
+    padding-left: calc(20px + (375 - 20) * ((100vw - 320px) / (1960 - 320)));
+    padding-right: calc(20px + (375 - 20) * ((100vw - 320px) / (1960 - 320)));
+}
+
+.padding_left_auto{
+    padding-left: calc(20px + (375 - 20) * ((100vw - 320px) / (1960 - 320)));
+
+}
+
+.padding_right_auto{
+    padding-right: calc(20px + (375 - 20) * ((100vw - 320px) / (1960 - 320)));
+
+}
+
+.section_title{
+    color: #2a2a2a;
+    font-size: calc(32px + (54 - 32) * ((100vw - 320px) / (1960 - 320)));
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+
+.blueButton_width{
+    align-self: center;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    background-color: #3c00ff;
+    border: 2px solid #3c00ff;
+    padding: calc(10px + (21 - 10) * ((100vw - 320px) / (1960 - 320))) calc(32px + (105 - 32) * ((100vw - 320px) / (1960 - 320)));
+    font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (1960 - 320)));;
+    border-radius: 2rem;
+    margin: 32px 0 64px;
+}
+
+p{
+    margin: 0;
+    height: min-content;
+}
+

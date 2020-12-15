@@ -1,0 +1,98 @@
+.section2_wrapper {
+    background-image: url('../../img/2-layers.png');
+    background-position: calc(63px + (600 - 63) * ((100vw - 320px) / (1960 - 320))) 0;
+    background-repeat: no-repeat;
+    background-size: calc(280px + (1222 - 280) * ((100vw - 320px) / (1960 - 320)));
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section2_content__list {
+    align-self: start;
+    width: calc(280px + (533 - 280) * ((100vw - 320px) / (1960 - 320)));
+    padding: calc(28px + (90 - 28) * ((100vw - 320px) / (1960 - 320))) 0;
+
+}
+
+.lid_title{
+    color: #2a2a2a;
+    font-size: calc(35px + (63 - 35) * ((100vw - 320px) / (1960 - 320)));
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.lid_description{
+    color: #2a2a2a;
+    font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1960 - 320)));
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    padding: calc(28px + (56 - 28) * ((100vw - 320px) / (1960 - 320))) 0;
+
+}
+
+.list_help_lid {
+    color: #2a2a2a;
+    font-size: calc(16px + (26 - 16) * ((100vw - 320px) / (1960 - 320)));
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    list-style-image: url("../../img/point.png");
+}
+
+.list_help_lid li{
+    margin-bottom: 32px;
+}
+
+.results_title{
+    color: #2a2a2a;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.lid_results {
+    color: #2a2a2a;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    padding-top: 24px;
+}
+
+.section2_content__blueButton{
+    align-self: center;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    background-color: #3c00ff;
+    border: 2px solid #3c00ff;
+    padding: calc(10px + (21 - 10) * ((100vw - 320px) / (1960 - 320))) calc(20px + (61 - 20) * ((100vw - 320px) / (1960 - 320)));
+    font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (1960 - 320)));;
+    border-radius: 2rem;
+    margin: 32px 0 64px;
+}
+
+
+
+@media (max-width: 539px) {
+    .section2_wrapper{
+        background-image: none;
+    }
+}

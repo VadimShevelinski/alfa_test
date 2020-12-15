@@ -1,0 +1,25 @@
+.section5_wrapper{
+    background: #2a2a2a;
+}
+
+.section5_wrapper h1{
+    color: #fefefe;
+    font-size: calc(32px + (54 - 32) * ((100vw - 320px) / (1960 - 320)));
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section5_wrapper h2{
+    color: #2a2a2a;
+    font-size: calc(22px + (32 - 22) * ((100vw - 320px) / (1960 - 320)));
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+

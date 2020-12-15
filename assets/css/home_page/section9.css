@@ -1,0 +1,46 @@
+.section9_wrapper{
+    padding-top: calc(50px + (150 - 50) * ((100vw - 320px) / (1960 - 320)))!important;
+
+}
+
+.border_line{
+    width: 100%;
+    border-top: 6px solid #3c00ff;
+}
+
+.opacity-0{
+    opacity: 0;
+}
+
+.photo_manager{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: -10%;
+    z-index: 1;
+}
+
+.info_manager{
+    z-index: 5;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.section9_wrapper a {
+    color: #1a1e21!important;
+}
+
+.form_contact{
+    z-index: 5;
+}
+
+.input_data{
+    height: calc(50px + (75 - 50) * ((100vw - 320px) / (1960 - 320))) !important;
+}
+
+.textarea_data{
+    height: calc(80px + (220 - 80) * ((100vw - 320px) / (1960 - 320)))!important;
+
+}
